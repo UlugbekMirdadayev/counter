@@ -1,15 +1,18 @@
 {
   "uz": {
+    "document_title": "O'zbekiston",
     "name": "O'zbekiston",
     "decrease": "Kamaytirish",
     "increase": "Oshirish"
   },
   "ru": {
+    "document_title": "Узбекистан",
     "name": "Узбекистан",
     "decrease": "Уменьшить",
     "increase": "Увеличить"
   },
   "en": {
+    "document_title": "Uzbekistan",
     "name": "Uzbekistan",
     "decrease": "Decrease",
     "increase": "Increase"

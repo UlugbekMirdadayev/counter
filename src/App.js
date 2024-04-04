@@ -1,4 +1,4 @@
-import React, { useMemo } from "react";
+import React, { useEffect, useMemo } from "react";
 import "./App.css";
 import { useDispatch } from "react-redux";
 import { setCount } from "./redux/count";
@@ -19,6 +19,10 @@ function App() {
   const handleIncreaseCount = (count) => {
     dispatch(setCount(count));
   };
+
+  useEffect(() => {
+    document.title = langData.document_title;
+  }, [langData.document_title]);
 
   return (
     <div className="App">
