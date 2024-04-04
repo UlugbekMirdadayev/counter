@@ -26,11 +26,11 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={() => handleDecreaseCount(states.count + 1)}>
+      <button onClick={() => handleDecreaseCount(states.count - 1)}>
         {langData.decrease}
       </button>
       <h1>{states.count}</h1>
-      <button onClick={() => handleIncreaseCount(states.count - 1)}>
+      <button onClick={() => handleIncreaseCount(states.count + 1)}>
         {langData.increase}
       </button>
 
