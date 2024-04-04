@@ -1,16 +1,13 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const countSlice = createSlice({
-    name:"count",
-    initialState: 1,
-    reducers:{
-        setCount:(_, {payload})=>{
-           return payload
-        },
-    },
+  name: "count",
+  initialState: 1,
+  reducers: {
+    setCount: (_, { payload }) => payload,
+  },
 });
 
-export const { setCount } = countSlice.actions // userSlice -> countSlice ga o'zgartirilgan
+export const { setCount } = countSlice.actions; // userSlice -> countSlice ga o'zgartirilgan
 
-
-export default countSlice.reducer
+export default countSlice.reducer;
